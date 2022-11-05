@@ -44,11 +44,10 @@ body *{
 #app{
     width: fit-content;
     margin: 52px auto;
-    padding-top: 52px;
 }
 
 header{
-    margin-bottom: 63px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
