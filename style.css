@@ -5,10 +5,10 @@
 }
 
 :root{
-    --card-title-border-color: #746615;
-    --card-color-primary: #F7DD43;
-    --card-bg-color: #1D1C19;
-    --bg: url(./assets/bg-yellow.svg);
+    --card-title-border-color: #338AF3;
+    --card-color-primary: #338AF3;
+    --card-bg-color: #202024;
+    --bg: url(./assets/bg-blue.svg);
 }
 
 body.blue{
