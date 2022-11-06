@@ -1,17 +1,15 @@
 function createGame(player1, hour, player2, homeTeamScore, awayTeamScore) {
 	return `
 	<li>
-			<figure>
-				<img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
-				<figcaption>${player1}</figcaption>
-			</figure>
-			<div class="horario">
-				<strong>${hour}</strong>
-			</div>
-			<figure>
-				<img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
-				<figcaption>${player2}</figcaption>
-			</figure>
+		<figure>
+			<img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
+			<figcaption>${player1}</figcaption>
+		</figure>
+			<strong class="horario">${hour}</strong>
+		<figure>
+			<img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
+			<figcaption>${player2}</figcaption>
+		</figure>
 	</li>
 	<span class="emBreve">${homeTeamScore === null ? "Em breve" : `<div class="placar">${homeTeamScore} x ${awayTeamScore}</div>`}</span>
 	`

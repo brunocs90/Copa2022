@@ -152,7 +152,7 @@ header{
 
 .card h2:hover,
 .card ul li strong:hover,
-.card ul li img:hover {
+.card ul li figure:hover{
   transform: scale(1.1);
 }
 
