@@ -1,19 +1,28 @@
-function createGame(player1, hour, player2) {
+function createGame(player1, hour, player2, homeTeamScore, awayTeamScore) {
 	return `
 	<li>
 		<figure>
 			<img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
 			<figcaption>${player1}</figcaption>
 		</figure>
+		<div>
 		<strong>${hour}</strong>
+
+
+		</div>
 		<figure>
 			<img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
 			<figcaption>${player2}</figcaption>
 		</figure>
 	</li>
-
 	`
 }
+
+{/* <div class="resultado">
+		<span class="">${homeTeamScore}</span>
+		<span class="">x</span>
+		<span class="">${awayTeamScore}</span>
+		</div> */}
 
 let delay = -0.3;
 function createCard(date, day, games) {
@@ -84,6 +93,8 @@ function processJson(data) {
 			const homeTeam = data[match].HomeTeam;
 			const awayTeam = data[match].AwayTeam;
 			const date = data[match].DateUtc;
+			const homeTeamScore = data[match].HomeTeamScore === null ? 0 : data[match].HomeTeamScore;
+			const awayTeamScore = data[match].AwayTeamScore === null ? 0 : data[match].AwayTeamScore;
 
 			dateFormat = new Date(date).toLocaleDateString("pt-br");
 			dateFormatDiaMes = dateFormat.slice(0, 5);
@@ -91,7 +102,7 @@ function processJson(data) {
 
 			horario = new Date(date).getHours() + ":00";
 
-			listGames += createGame(homeTeam, horario, awayTeam);
+			listGames += createGame(homeTeam, horario, awayTeam, homeTeamScore, awayTeamScore);
 		}
 		else {
 			htmlDados += createCard(dateFormatDiaMes, diaSemana, listGames);
@@ -101,6 +112,8 @@ function processJson(data) {
 			const homeTeam = data[match].HomeTeam;
 			const awayTeam = data[match].AwayTeam;
 			const date = data[match].DateUtc;
+			const homeTeamScore = data[match].HomeTeamScore === null ? 0 : data[match].HomeTeamScore;
+			const awayTeamScore = data[match].AwayTeamScore === null ? 0 : data[match].AwayTeamScore;
 
 			dateFormat = new Date(date).toLocaleDateString("pt-br");
 			dateFormatDiaMes = dateFormat.slice(0, 5);
@@ -115,7 +128,7 @@ function processJson(data) {
 				horario = new Date(date).getHours() + ":00";
 			}
 
-			listGames += createGame(homeTeam, horario, awayTeam);
+			listGames += createGame(homeTeam, horario, awayTeam, homeTeamScore, awayTeamScore);
 		}
 	}
 	return htmlDados;
