@@ -1,21 +1,29 @@
 function createGame(player1, hour, player2) {
 	return `
-    <li>
-    <img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
-    <strong>${hour}</strong>
-    <img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
-    </li>
-    `
+	<li>
+		<figure>
+			<img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
+			<figcaption>${player1}</figcaption>
+		</figure>
+		<strong>${hour}</strong>
+		<figure>
+			<img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
+			<figcaption>${player2}</figcaption>
+		</figure>
+	</li>
+
+	`
 }
+
 let delay = -0.3;
 function createCard(date, day, games) {
 	delay = delay + 0.3;
 	return `
     <div class="card" style="animation-delay: ${delay}s">
-    <h2 class="date" >${date}<span>${day}</span></h2>
-    <ul>
-    ${games}
-    </ul>
+		<h2 class="date" >${date}<span>${day}</span></h2>
+		<ul>
+			${games}
+		</ul>
     </div>
     `
 }
@@ -80,6 +88,7 @@ function processJson(data) {
 			dateFormat = new Date(date).toLocaleDateString("pt-br");
 			dateFormatDiaMes = dateFormat.slice(0, 5);
 			diaSemana = getDayofWeek(new Date(date).getDay());
+
 			horario = new Date(date).getHours() + ":00";
 
 			listGames += createGame(homeTeam, horario, awayTeam);
@@ -96,7 +105,15 @@ function processJson(data) {
 			dateFormat = new Date(date).toLocaleDateString("pt-br");
 			dateFormatDiaMes = dateFormat.slice(0, 5);
 			diaSemana = getDayofWeek(new Date(date).getDay());
-			horario = new Date(date).getHours() + ":00";
+
+			const horarioSize = new Date(date).getHours().toString().length;
+
+			if (horarioSize === 1) {
+				horario = "0" + new Date(date).getHours() + ":00";
+			}
+			else {
+				horario = new Date(date).getHours() + ":00";
+			}
 
 			listGames += createGame(homeTeam, horario, awayTeam);
 		}
