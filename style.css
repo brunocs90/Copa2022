@@ -71,6 +71,7 @@ header{
     background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 6px;
+    /* height: fit-content; */
 }
 
 .card h2{
@@ -195,8 +196,22 @@ header{
 @media (min-width: 700px) {
 
     #cards{
-        max-width: 670px;
+        max-width: 1020px;
         flex-direction: row;
         flex-wrap: wrap;
     }
 }
+
+a {
+    text-decoration: none;
+    color: var(--card-color-primary);
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 19px;
+    color: #e1e1e6;
+    border-top: 1px solid #e1e1e621;
+  }
+
