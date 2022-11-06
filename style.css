@@ -101,6 +101,39 @@ header{
     flex-direction: column;
     gap: 24px;
     width: 270px;
+    //border: solid red;
+}
+
+.card ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //border: solid blue;
+}
+
+.horario{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 125%;
+    color: #E1E1E6;
+    //border: solid yellow;
+    width: 100%;
+}
+
+.emBreve{
+    color: #E1E1E6;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: -36px;
+}
+
+.placar{
+    color: #F7DD43;
+}
+
+.hidden{
+    display: none;
 }
 
 .card ul li figure figcaption {
@@ -109,24 +142,12 @@ header{
     font-weight: 700;
     text-transform: uppercase;
     white-space: nowrap;
+    //border: solid green;
 }
 
-.card ul li + li{
-    padding-top: 24px;
+.card ul span + li{
     border-top: 1px solid #323238;
-}
-
-.card ul li{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card ul li strong{
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 125%;
-    color: #E1E1E6;
+    padding-top: 24px;
 }
 
 .card h2:hover,
@@ -158,16 +179,7 @@ header{
     transition: all 1s;
 }
 
-.resultado{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: #F7DD43;
-    font-size: 15px;
-    white-space: nowrap;
-    padding: 5px;
-}
+
 
 @keyframes appear {
     0% {

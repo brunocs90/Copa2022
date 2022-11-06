@@ -1,28 +1,23 @@
 function createGame(player1, hour, player2, homeTeamScore, awayTeamScore) {
 	return `
 	<li>
-		<figure>
-			<img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
-			<figcaption>${player1}</figcaption>
-		</figure>
-		<div>
-		<strong>${hour}</strong>
-
-
-		</div>
-		<figure>
-			<img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
-			<figcaption>${player2}</figcaption>
-		</figure>
+			<figure>
+				<img src="./assets/icon=${player1}.svg" class="flag" alt="Logo do ${player1}">
+				<figcaption>${player1}</figcaption>
+			</figure>
+			<div class="horario">
+				<strong>${hour}</strong>
+			</div>
+			<figure>
+				<img src="./assets/icon=${player2}.svg" class="flag" alt="Logo da ${player2}">
+				<figcaption>${player2}</figcaption>
+			</figure>
 	</li>
+	<span class="emBreve">${homeTeamScore === null ? "Em breve" : `<div class="placar">${homeTeamScore} x ${awayTeamScore}</div>`}</span>
 	`
 }
 
-{/* <div class="resultado">
-		<span class="">${homeTeamScore}</span>
-		<span class="">x</span>
-		<span class="">${awayTeamScore}</span>
-		</div> */}
+//<span class="placar">0 x 0</span>
 
 let delay = -0.3;
 function createCard(date, day, games) {
@@ -93,8 +88,8 @@ function processJson(data) {
 			const homeTeam = data[match].HomeTeam;
 			const awayTeam = data[match].AwayTeam;
 			const date = data[match].DateUtc;
-			const homeTeamScore = data[match].HomeTeamScore === null ? 0 : data[match].HomeTeamScore;
-			const awayTeamScore = data[match].AwayTeamScore === null ? 0 : data[match].AwayTeamScore;
+			const homeTeamScore = data[match].HomeTeamScore;
+			const awayTeamScore = data[match].AwayTeamScore;
 
 			dateFormat = new Date(date).toLocaleDateString("pt-br");
 			dateFormatDiaMes = dateFormat.slice(0, 5);
@@ -112,8 +107,8 @@ function processJson(data) {
 			const homeTeam = data[match].HomeTeam;
 			const awayTeam = data[match].AwayTeam;
 			const date = data[match].DateUtc;
-			const homeTeamScore = data[match].HomeTeamScore === null ? 0 : data[match].HomeTeamScore;
-			const awayTeamScore = data[match].AwayTeamScore === null ? 0 : data[match].AwayTeamScore;
+			const homeTeamScore = data[match].HomeTeamScore;
+			const awayTeamScore = data[match].AwayTeamScore;
 
 			dateFormat = new Date(date).toLocaleDateString("pt-br");
 			dateFormatDiaMes = dateFormat.slice(0, 5);
