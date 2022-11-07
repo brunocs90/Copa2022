@@ -137,13 +137,24 @@ header{
     display: none;
 }
 
+.card ul li figure{
+    width: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card ul li figure figcaption {
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #E1E1E6;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    white-space: nowrap;
-    //border: solid green;
+    //white-space: nowrap;
+    padding-top: 2px;
 }
 
 .card ul span + li{
@@ -163,9 +174,7 @@ header{
   transition: transform 0.3s;
 }
 
-.card ul li figure{
-    width: 74px;
-}
+
 
 .card {
     animation: appear 0.2s;
