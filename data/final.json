@@ -1,0 +1,26 @@
+[
+    {
+        "MatchNumber": 64,
+        "RoundNumber": 7,
+        "day": 23,
+        "DateUtc": "2022-12-18 15:00:00Z",
+        "Location": "TBA",
+        "HomeTeam": "Coming soon",
+        "AwayTeam": "Coming soon",
+        "Group": null,
+        "HomeTeamScore": null,
+        "AwayTeamScore": null
+    },
+    {
+        "MatchNumber": 63,
+        "RoundNumber": 7,
+        "day": 24,
+        "DateUtc": "2022-12-17 15:00:00Z",
+        "Location": "TBA",
+        "HomeTeam": "Coming soon",
+        "AwayTeam": "Coming soon",
+        "Group": null,
+        "HomeTeamScore": null,
+        "AwayTeamScore": null
+    }
+]

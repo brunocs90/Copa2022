@@ -1,3 +1,24 @@
+function createMenu(link, fase, nome) {
+	return `
+        <li>
+            <a href="./${link}.html" class="${fase}">
+                <span class="btn btn-primary">${nome}</span>
+            </a>
+        </li>
+    `
+}
+
+document.querySelector("#menu").innerHTML = `
+    <ul class="nav-menu">
+        ${createMenu("index", "fase-grupo", "Fase de Grupos")}
+        ${createMenu("oitavas", "fase-oitavas", "Oitavas de Final")}
+        ${createMenu("quartas", "fase-quartas", "Quartas de Final")}
+        ${createMenu("semifinal", "fase-semifinal", "Semifinal")}
+        ${createMenu("terceiro-lugar", "fase-terceiro", "3º lugar")}
+        ${createMenu("final", "fase-final", "Final")}
+    </ul>
+`
+
 function createGame(player1, hour, player2, homeTeamScore, awayTeamScore) {
 	return `
 	<li>
