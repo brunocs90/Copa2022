@@ -44,8 +44,8 @@
         "HomeTeam": "USA",
         "AwayTeam": "Wales",
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 8,
