@@ -32,8 +32,8 @@
         "HomeTeam": "Senegal",
         "AwayTeam": "Netherlands",
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 4,
