@@ -56,8 +56,8 @@
         "HomeTeam": "Argentina",
         "AwayTeam": "Saudi_Arabia",
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 6,
