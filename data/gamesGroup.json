@@ -68,8 +68,8 @@
         "HomeTeam": "Denmark",
         "AwayTeam": "Tunisia",
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 7,
