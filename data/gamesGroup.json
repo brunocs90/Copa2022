@@ -92,8 +92,8 @@
         "HomeTeam": "France",
         "AwayTeam": "Australia",
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 12,
