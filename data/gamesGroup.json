@@ -80,8 +80,8 @@
         "HomeTeam": "Mexico",
         "AwayTeam": "Poland",
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 5,
