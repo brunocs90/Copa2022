@@ -104,8 +104,8 @@
         "HomeTeam": "Morocco",
         "AwayTeam": "Croatia",
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 11,
