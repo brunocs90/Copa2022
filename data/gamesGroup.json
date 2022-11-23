@@ -128,8 +128,8 @@
         "HomeTeam": "Spain",
         "AwayTeam": "Costa_Rica",
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 9,
