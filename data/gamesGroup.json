@@ -140,8 +140,8 @@
         "HomeTeam": "Belgium",
         "AwayTeam": "Canada",
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 13,
