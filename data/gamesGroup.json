@@ -164,8 +164,8 @@
         "HomeTeam": "Uruguay",
         "AwayTeam": "Korea_Republic",
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 15,
