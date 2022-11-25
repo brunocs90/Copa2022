@@ -212,8 +212,8 @@
         "HomeTeam": "Qatar",
         "AwayTeam": "Senegal",
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 19,
