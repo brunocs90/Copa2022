@@ -200,8 +200,8 @@
         "HomeTeam": "Wales",
         "AwayTeam": "Iran",
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 18,
