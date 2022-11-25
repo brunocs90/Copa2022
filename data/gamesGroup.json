@@ -224,8 +224,8 @@
         "HomeTeam": "Netherlands",
         "AwayTeam": "Ecuador",
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 20,
@@ -236,8 +236,8 @@
         "HomeTeam": "England",
         "AwayTeam": "USA",
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 21,
