@@ -248,8 +248,8 @@
         "HomeTeam": "Tunisia",
         "AwayTeam": "Australia",
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 22,
