@@ -210,7 +210,7 @@ header{
     transition: all 1s;
 }
 
-@keyframes appear {
+/* @keyframes appear {
     0% {
         transform: translateY(-50px);
         opacity: 0;
@@ -219,7 +219,7 @@ header{
     100% {
         opacity: 1;
     }
-}
+} */
 
 @media (min-width: 700px) {
 
