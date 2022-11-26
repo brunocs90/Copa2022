@@ -10,7 +10,7 @@ function createMenu(link, fase, nome) {
 
 document.querySelector("#menu").innerHTML = `
     <ul class="nav-menu">
-        ${createMenu("index", "fase-grupo", "Fase de Grupos")}
+        ${createMenu("grupos", "fase-grupo", "Fase de Grupos")}
         ${createMenu("oitavas", "fase-oitavas", "Oitavas de Final")}
         ${createMenu("quartas", "fase-quartas", "Quartas de Final")}
         ${createMenu("semifinal", "fase-semifinal", "Semifinal")}
