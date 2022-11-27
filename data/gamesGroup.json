@@ -308,8 +308,8 @@
         "HomeTeam": "Belgium",
         "AwayTeam": "Morocco",
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 27,
