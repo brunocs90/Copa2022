@@ -296,8 +296,8 @@
         "HomeTeam": "Japan",
         "AwayTeam": "Costa_Rica",
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 26,
