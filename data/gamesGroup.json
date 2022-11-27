@@ -332,8 +332,8 @@
         "HomeTeam": "Spain",
         "AwayTeam": "Germany",
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 29,
