@@ -380,8 +380,8 @@
         "HomeTeam": "Portugal",
         "AwayTeam": "Uruguay",
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 35,
