@@ -356,8 +356,8 @@
         "HomeTeam": "Korea_Republic",
         "AwayTeam": "Ghana",
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 31,
