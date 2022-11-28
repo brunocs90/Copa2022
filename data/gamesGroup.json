@@ -344,8 +344,8 @@
         "HomeTeam": "Cameroon",
         "AwayTeam": "Serbia",
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 30,
