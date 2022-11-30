@@ -18,10 +18,10 @@
         "DateUtc": "2022-12-03 19:00:00Z",
         "Location": "TBA",
         "HomeTeam": "1C",
-        "AwayTeam": "2D",
+        "AwayTeam": "Australia",
         "Group": null,
         "HomeTeamScore": null,
-        "AwayTeamScore": "Australia"
+        "AwayTeamScore": null
     },
     {
         "MatchNumber": 52,
@@ -29,10 +29,10 @@
         "day": 16,
         "DateUtc": "2022-12-04 15:00:00Z",
         "Location": "TBA",
-        "HomeTeam": "1D",
+        "HomeTeam": "France",
         "AwayTeam": "2C",
         "Group": null,
-        "HomeTeamScore": "France",
+        "HomeTeamScore": null,
         "AwayTeamScore": null
     },
     {
