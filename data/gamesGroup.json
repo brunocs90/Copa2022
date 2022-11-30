@@ -464,8 +464,8 @@
         "HomeTeam": "Poland",
         "AwayTeam": "Argentina",
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 40,
@@ -476,8 +476,8 @@
         "HomeTeam": "Saudi_Arabia",
         "AwayTeam": "Mexico",
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 41,
