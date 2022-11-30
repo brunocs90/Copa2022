@@ -21,7 +21,7 @@
         "AwayTeam": "2D",
         "Group": null,
         "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "AwayTeamScore": "Australia"
     },
     {
         "MatchNumber": 52,
@@ -32,7 +32,7 @@
         "HomeTeam": "1D",
         "AwayTeam": "2C",
         "Group": null,
-        "HomeTeamScore": null,
+        "HomeTeamScore": "France",
         "AwayTeamScore": null
     },
     {
