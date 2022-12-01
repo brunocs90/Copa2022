@@ -488,8 +488,8 @@
         "HomeTeam": "Croatia",
         "AwayTeam": "Belgium",
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 42,
@@ -500,8 +500,8 @@
         "HomeTeam": "Canada",
         "AwayTeam": "Morocco",
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 43,
