@@ -53,8 +53,8 @@
         "day": 17,
         "DateUtc": "2022-12-05 15:00:00Z",
         "Location": "TBA",
-        "HomeTeam": "1E",
-        "AwayTeam": "2F",
+        "HomeTeam": "Japan",
+        "AwayTeam": "Croatia",
         "Group": null,
         "HomeTeamScore": null,
         "AwayTeamScore": null
@@ -77,8 +77,8 @@
         "day": 18,
         "DateUtc": "2022-12-06 15:00:00Z",
         "Location": "TBA",
-        "HomeTeam": "1F",
-        "AwayTeam": "2E",
+        "HomeTeam": "Morocco",
+        "AwayTeam": "Spain",
         "Group": null,
         "HomeTeamScore": null,
         "AwayTeamScore": null
