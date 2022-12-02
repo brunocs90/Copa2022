@@ -1,5 +1,5 @@
-const GRUPOS = true;
-const OITAVAS_FINAL = false;
+const GRUPOS = false;
+const OITAVAS_FINAL = true;
 const QUARTAS_FINAL = false;
 const SEMI_FINAL = false;
 const TERCEIRO_LUGAR = false;
