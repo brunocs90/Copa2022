@@ -560,8 +560,8 @@
         "HomeTeam": "Serbia",
         "AwayTeam": "Switzerland",
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 48,
@@ -572,8 +572,8 @@
         "HomeTeam": "Cameroon",
         "AwayTeam": "Brazil",
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 49,
