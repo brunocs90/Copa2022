@@ -8,8 +8,8 @@
         "HomeTeam": "Netherlands",
         "AwayTeam": "USA",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 50,
