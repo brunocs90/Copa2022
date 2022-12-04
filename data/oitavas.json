@@ -32,8 +32,8 @@
         "HomeTeam": "France",
         "AwayTeam": "Poland",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 51,
