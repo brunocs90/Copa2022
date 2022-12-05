@@ -56,8 +56,8 @@
         "HomeTeam": "Japan",
         "AwayTeam": "Croatia",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 54,
