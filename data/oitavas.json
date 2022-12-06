@@ -68,8 +68,8 @@
         "HomeTeam": "Brazil",
         "AwayTeam": "Korea_Republic",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 4,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 55,
