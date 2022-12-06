@@ -80,8 +80,8 @@
         "HomeTeam": "Morocco",
         "AwayTeam": "Spain",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 56,
@@ -92,8 +92,8 @@
         "HomeTeam": "Portugal",
         "AwayTeam": "Switzerland",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 6,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 58,
