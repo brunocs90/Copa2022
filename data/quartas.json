@@ -20,8 +20,8 @@
         "HomeTeam": "Netherlands",
         "AwayTeam": "Argentina",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 60,
@@ -32,8 +32,8 @@
         "HomeTeam": "Morocco",
         "AwayTeam": "Portugal",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 59,
