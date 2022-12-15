@@ -5,11 +5,11 @@
         "day": 21,
         "DateUtc": "2022-12-13 19:00:00Z",
         "Location": "TBA",
-        "HomeTeam": "Coming soon",
-        "AwayTeam": "Coming soon",
+        "HomeTeam": "Argentina",
+        "AwayTeam": "Croatia",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 62,
@@ -17,11 +17,11 @@
         "day": 22,
         "DateUtc": "2022-12-14 19:00:00Z",
         "Location": "TBA",
-        "HomeTeam": "Coming soon",
-        "AwayTeam": "Coming soon",
+        "HomeTeam": "France",
+        "AwayTeam": "Morocco",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 63,
