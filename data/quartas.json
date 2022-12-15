@@ -44,8 +44,8 @@
         "HomeTeam": "England",
         "AwayTeam": "France",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 61,
