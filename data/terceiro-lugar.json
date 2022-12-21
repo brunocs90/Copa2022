@@ -8,8 +8,8 @@
         "HomeTeam": "Croatia",
         "AwayTeam": "Morocco",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 64,
