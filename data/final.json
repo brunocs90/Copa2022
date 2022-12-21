@@ -8,8 +8,8 @@
         "HomeTeam": "Argentina",
         "AwayTeam": "France",
         "Group": null,
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 63,
